@@ -1,0 +1,143 @@
+/* GOOGLE FONTS. */
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+/* PRE-STYLING */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    height: 100vh;
+    background-color: #222831;
+    padding: 0 200px;
+}
+
+.winner__text{
+    color: #02d1ae;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 36px;
+}
+
+.winner{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.text__title{
+    font-family: 'Frijole', cursive;
+    color: #eeeeee;
+    font-size: 72px;
+    text-align: center;
+    padding: 20px 0 40px 0;
+}
+
+.text__score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: #eeeeee;
+    padding-bottom: 50px;
+}
+
+.versus__section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.player{
+    color: #eeeeee;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+.versus__button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    text-shadow: 5px 5px 8px #0000006c;
+    color: #222831;
+    background-color: #02d1ae;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 10px solid #eeeeee;
+}
+
+.menu__choices{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rps__icon{
+    display: inline;
+    padding: 0 30px;
+}
+
+.rps__icon button{
+    border: none;
+    background-color: #222831;
+}
+
+.rps__icon i{
+    cursor: pointer;
+    color: #eeeeee;
+    font-size: 48px;
+}
+
+.rps__icon i:hover{
+    color: #02d1ae;
+    text-shadow: 5px 5px 8px #0000006c;
+}
+
+.menu__button{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__button li{
+    display: inline;
+    padding: 0 20px;
+}
+
+.button__rules{
+    padding: 10px 40px;
+    border: 2px solid #02d1ae;
+    border-radius: 5PX;
+    color: #02d1ae;
+}
+
+.button__rules:hover{
+    background-color: #02d1ae;
+    color: #222831;
+}
+
+.button__reset{
+    padding: 10px 40px;
+    border: 2px solid #02d1ae;
+    background-color: #02d1ae;
+    border-radius: 5PX;
+    color: #222831;
+}
